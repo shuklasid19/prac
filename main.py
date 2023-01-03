@@ -12,10 +12,14 @@ def add(x, y):
     print(x+y)
 
 
+def message(msg):
+    print("dont ask me again", msg)
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
     add(23, 46)
+    message("do it on youre own")
 
 
 
